@@ -8,40 +8,41 @@
 </head>
 <body class="py-5 px-4 h-full">
     <!------------------------header part---------------->
-    <div class="header-part w-full flex flex-col md:flex-row md:justify-between px-20 py-10">
-        <div class="leftside flex flex-row">
+    <div class="header-part px-10 py-2 flex flex-row justify-between w-full md:flex md:flex-row md:justify-between md:px-20 md:py-10">
+        <div class="leftside flex md:flex-row">
             <div class="logo"><img src="/img/shoe icon.svg" alt="icon"></div>
             <div class="logotext text-[30px] text-2xl font-bold">Shoe</div>
         </div>
         <div class="rigtside ">
-            <ul class="flex flex-row gap-12 font-bold text-[16px]">
-                <li class="text-pink-600">HOME</li>
-                <li class="text-slate-500 hover:text-pink-600">ABOUT US</li>
+            <ul class="md:flex  hidden md:flex-row gap-12 md:visible font-bold text-[16px]">
+                <li class="text-pink-600 ">HOME</li>
+                <li class="text-slate-500  hover:text-pink-600">ABOUT US</li>
                 <li class="text-slate-500  hover:text-pink-600">SHOP</li>
                 <li class="text-slate-500  hover:text-pink-600">CONTACT</li>
                 <li><img src="/img/Search.png" alt="icon"></li>
             </ul>
         </div>
+        <div class="md:hidden"><img src="/img/Search.png" alt="icon"></div>
     </div>
     <!-------------------------Main section---------------->
-    <div class="main-section  mt-9 h-full rounded-xl flex flex-row justify-between py-20 px-20 bg-gradient-to-r from-blue-300 to-pink-300">
+    <div class="main-section py-4 px-4 mt-8 items-center justify-center w-full flex-col md:mt-9 h-full rounded-xl flex md:flex-row md:justify-between md:py-20 md:px-20 bg-gradient-to-r from-blue-300 to-pink-300">
         <div class="left-side pt-10">
-            <div class="firstpart text-6xl leading-[75px]">Are you ready to <br> <span class="font-bold">lead the way</span></div>
+            <div class="firstpart text-4xl leading-[50px] text-center md:text-left md:text-6xl md:leading-[75px]">Are you ready to <br> <span class="font-bold">lead the way</span></div>
             <div class="secondpart">
-                <p class="text-xl font-semibold text-slate-600 pt-4">COMPREHENSIVE PROTECTION</p>
-                <p class="text-[16px] text-slate-700 pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dicta perferendis quod quisquam ipsa est.  
+                <p class="md:text-xl md:text-left text-center font-semibold text-slate-600 pt-4">COMPREHENSIVE PROTECTION</p>
+                <p class=" md:text-left text-center text-[16px] text-slate-700 pt-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Dicta perferendis quod quisquam ipsa est.  
                     Qui officiis <br> quibusdam aperiam, ipsum aliquid hic iste quod <br> repellat sunt enim quia est, vel commodi.</p>
             </div>
             <div >
-                <div class="thirdpart flex hover:opacity-50 flex-row  w-56 gap-5 ml-14 rounded-3xl py-5 px-7 mt-20 bg-white">
+                <div class="thirdpart flex hover:opacity-50 flex-row  w-56 gap-5 ml-14 rounded-3xl py-5 px-7 mt-11 md:mt-20 bg-white">
                     <p class="text-pink-600 text-xl font-bold">BUY NOW</p>
                     <img src="/img/arrow.svg" alt="">
                 </div>
             </div>
         </div>
-        <div class="right-side flex flex-col items-center pt-14">
-            <div class="animate-bounce"><img src="/img/shoes1.svg" alt="shoes"></div>
-            <div class="flex flex-row gap-11 pt-12">
+        <div class="right-side  flex flex-col items-center pt-28 md:pt-14">
+            <div class="animate-bounce  md:h-full"><img  class=" h-[200px] md:h-full" src="/img/shoes1.svg" alt="shoes"></div>
+            <div class="flex flex-row gap-11 pt-5 md:pt-12">
                 <div class="hover:scale-150"><img src="/img/mini-photo.svg" alt="shoe"></div>
                 <div class="hover:scale-150"><img src="/img/mini-photo2.svg" alt="shoe"></div>
             </div>
